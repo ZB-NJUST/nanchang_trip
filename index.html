@@ -6,23 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>南昌7月旅行攻略</title>
   <style>
-    /* ── Reset & Base ── */
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    html {
-      font-size: 15px;
-      color: #1a1a2e;
-      background: #f8f9fa;
-      scroll-behavior: smooth;
-    }
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Arial, sans-serif;
-      line-height: 1.7;
-      max-width: 720px;
-      margin: 0 auto;
-      padding: 16px 16px 40px;
-      background: #fff;
-      min-height: 100vh;
-    }
+    html { font-size: 15px; color: #1a1a2e; background: #f8f9fa; scroll-behavior: smooth; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Arial, sans-serif; line-height: 1.7; max-width: 720px; margin: 0 auto; padding: 16px 16px 40px; background: #fff; min-height: 100vh; }
     h1 { font-size: 1.6rem; margin: 1.2em 0 0.6em; color: #c0392b; }
     h2 { font-size: 1.3rem; margin: 1.4em 0 0.5em; padding-bottom: 0.3em; border-bottom: 3px solid #e74c3c; color: #2c3e50; }
     h3 { font-size: 1.1rem; margin: 1.2em 0 0.4em; color: #2c3e50; }
@@ -31,145 +17,37 @@
     a:hover { text-decoration: underline; }
     strong { color: #c0392b; }
     hr { border: none; height: 2px; background: linear-gradient(to right, #e74c3c, #f39c12); margin: 1.6em 0; }
-    blockquote {
-      margin: 0.8em 0;
-      padding: 12px 16px;
-      background: #fff9f0;
-      border-left: 4px solid #f39c12;
-      border-radius: 0 8px 8px 0;
-      color: #555;
-    }
+    blockquote { margin: 0.8em 0; padding: 12px 16px; background: #fff9f0; border-left: 4px solid #f39c12; border-radius: 0 8px 8px 0; color: #555; }
     blockquote p { margin: 0.3em 0; }
     blockquote strong { color: #e67e22; }
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      margin: 0.8em 0;
-      font-size: 0.85rem;
-      display: block;
-      overflow-x: auto;
-      -webkit-overflow-scrolling: touch;
-    }
+    table { width: 100%; border-collapse: collapse; margin: 0.8em 0; font-size: 0.85rem; display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; }
     thead { background: #c0392b; color: #fff; }
-    th, td {
-      padding: 8px 10px;
-      text-align: left;
-      border: 1px solid #e0e0e0;
-      white-space: nowrap;
-    }
+    th, td { padding: 8px 10px; text-align: left; border: 1px solid #e0e0e0; white-space: nowrap; }
     th { font-weight: 600; }
     tbody tr:nth-child(even) { background: #f8f8f8; }
     tbody tr:hover { background: #fce4e4; }
     ul, ol { margin: 0.6em 0; padding-left: 1.5em; }
     li { margin: 0.3em 0; }
     img { max-width: 100%; height: auto; border-radius: 8px; }
-    h2[id^="day"] {
-      background: linear-gradient(135deg, #c0392b, #e74c3c);
-      color: #fff !important;
-      padding: 12px 16px;
-      border-radius: 10px;
-      border: none;
-      margin-top: 1.8em;
-      font-size: 1.15rem;
-    }
-    h1.title {
-      text-align: center;
-      font-size: 1.6rem;
-      padding: 20px 0 10px;
-      margin: 0;
-      background: linear-gradient(135deg, #c0392b, #e74c3c);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
-    }
+    h2[id^="day"] { background: linear-gradient(135deg, #c0392b, #e74c3c); color: #fff !important; padding: 12px 16px; border-radius: 10px; border: none; margin-top: 1.8em; font-size: 1.15rem; }
+    h1.title { text-align: center; font-size: 1.6rem; padding: 20px 0 10px; margin: 0; background: linear-gradient(135deg, #c0392b, #e74c3c); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
     header { margin-bottom: 0.5em; text-align: center; }
     header p { color: #666; font-size: 0.9rem; }
-    code {
-      background: #f0f0f0;
-      padding: 2px 6px;
-      border-radius: 4px;
-      font-family: "SF Mono", "Fira Code", monospace;
-      font-size: 0.85rem;
-    }
-    pre code {
-      display: block;
-      padding: 12px;
-      overflow-x: auto;
-      background: #2d2d2d;
-      color: #f8f8f2;
-      border-radius: 8px;
-    }
-    /* TOC toggle button */
-    #toc-toggle {
-      position: fixed;
-      top: 12px;
-      right: 12px;
-      z-index: 1000;
-      width: 44px; height: 44px;
-      border: none;
-      border-radius: 50%;
-      background: #c0392b;
-      color: #fff;
-      font-size: 1.4rem;
-      cursor: pointer;
-      box-shadow: 0 2px 12px rgba(0,0,0,0.25);
-      display: flex; align-items: center; justify-content: center;
-    }
+    code { background: #f0f0f0; padding: 2px 6px; border-radius: 4px; font-family: "SF Mono", "Fira Code", monospace; font-size: 0.85rem; }
+    pre code { display: block; padding: 12px; overflow-x: auto; background: #2d2d2d; color: #f8f8f2; border-radius: 8px; }
+    #toc-toggle { position: fixed; top: 12px; right: 12px; z-index: 1000; width: 44px; height: 44px; border: none; border-radius: 50%; background: #c0392b; color: #fff; font-size: 1.4rem; cursor: pointer; box-shadow: 0 2px 12px rgba(0,0,0,0.25); display: flex; align-items: center; justify-content: center; }
     #toc-toggle:hover { background: #e74c3c; }
-    /* TOC panel */
-    #TOC {
-      position: fixed;
-      top: 0; right: -320px;
-      width: 300px; height: 100vh;
-      z-index: 999;
-      background: #fff;
-      box-shadow: -4px 0 20px rgba(0,0,0,0.15);
-      overflow-y: auto;
-      padding: 60px 16px 24px;
-      transition: right .3s ease;
-      font-size: 0.85rem;
-    }
+    #TOC { position: fixed; top: 0; right: -320px; width: 300px; height: 100vh; z-index: 999; background: #fff; box-shadow: -4px 0 20px rgba(0,0,0,0.15); overflow-y: auto; padding: 60px 16px 24px; transition: right .3s ease; font-size: 0.85rem; }
     #TOC.open { right: 0; }
-    /* overlay */
-    #toc-overlay {
-      position: fixed;
-      top: 0; left: 0; right: 0; bottom: 0;
-      z-index: 998;
-      background: rgba(0,0,0,0.35);
-      opacity: 0;
-      pointer-events: none;
-      transition: opacity .3s ease;
-    }
+    #toc-overlay { position: fixed; top: 0; left: 0; right: 0; bottom: 0; z-index: 998; background: rgba(0,0,0,0.35); opacity: 0; pointer-events: none; transition: opacity .3s ease; }
     #toc-overlay.open { opacity: 1; pointer-events: auto; }
-    /* TOC inner */
-    #TOC ul {
-      list-style: none;
-      padding-left: 1.2em;
-      margin: 0.3em 0;
-    }
+    #TOC ul { list-style: none; padding-left: 1.2em; margin: 0.3em 0; }
     #TOC > ul { padding-left: 0; }
     #TOC li { margin: 0.2em 0; }
-    #TOC a {
-      display: block;
-      padding: 4px 8px;
-      color: #2c3e50;
-      border-radius: 6px;
-      text-decoration: none;
-    }
+    #TOC a { display: block; padding: 4px 8px; color: #2c3e50; border-radius: 6px; text-decoration: none; }
     #TOC a:hover { background: #fce4e4; color: #c0392b; }
-    @media (max-width: 480px) {
-      html { font-size: 14px; }
-      body { padding: 12px 12px 30px; }
-      th, td { padding: 6px 8px; font-size: 0.8rem; }
-      h1 { font-size: 1.4rem; }
-      h2 { font-size: 1.15rem; }
-      blockquote { padding: 10px 12px; }
-      #TOC { width: 280px; right: -300px; }
-    }
-    @media print {
-      #toc-toggle, #toc-overlay { display: none !important; }
-      #TOC { position: static; width: auto; height: auto; box-shadow: none; padding: 12px 0; }
-    }
+    @media (max-width: 480px) { html { font-size: 14px; } body { padding: 12px 12px 30px; } th, td { padding: 6px 8px; font-size: 0.8rem; } h1 { font-size: 1.4rem; } h2 { font-size: 1.15rem; } blockquote { padding: 10px 12px; } #TOC { width: 280px; right: -300px; } }
+    @media print { #toc-toggle, #toc-overlay { display: none !important; } #TOC { position: static; width: auto; height: auto; box-shadow: none; padding: 12px 0; } }
   </style>
 </head>
 <body>
@@ -576,11 +454,11 @@ style="text-align: left;"><strong>2元/人</strong>（投币/刷卡/扫码均可
 <hr />
 <h2 id="day-1-老城人文美食日">🏛️ Day 1 · 老城人文美食日</h2>
 <p><strong>主题：大士院早餐 → 滕王阁 → 珠宝街逛吃 → 八一广场/纪念馆 →
-茶馆 → 贵林相声社</strong></p>
+茶馆 → 赣江玩水看晚霞 → 贵林相声社</strong></p>
 <blockquote>
 <p><strong>地理逻辑</strong>：所有景点都在老城区，彼此步行可达，非常顺路！
 大士院 ↔︎️ 滕王阁（步行5分钟）↔︎️ 珠宝街/万寿宫（步行10分钟）↔︎️
-八一广场（步行15分钟）↔︎️ 贵林社（步行5分钟）</p>
+八一广场（步行15分钟）↔︎️ 八一公园茶馆 ↔︎️ 贵林社</p>
 </blockquote>
 <h3 id="时间线-1">⏰ 时间线</h3>
 <h4 id="大士院早餐南昌早餐天花板">🌅 07:00-08:00 ·
@@ -663,6 +541,10 @@ style="text-align: left;">早上人少，拍照不用等；阁内有展览有空
 </tr>
 </tbody>
 </table>
+<blockquote>
+<p>🏊
+<strong>玩水看晚霞</strong>：傍晚从地铁<strong>滕王阁站4号口</strong>出，沿江边走到赣江畔，7月丰水期水位高，岸边可以踩水玩水，还能看到绝美晚霞！不过<strong>注意安全</strong>，别往深处走～</p>
+</blockquote>
 <h4 id="珠宝街逛吃-万寿宫">🍢 09:30-12:00 · 珠宝街逛吃 + 万寿宫</h4>
 <p>从滕王阁步行到<strong>珠宝街</strong>约10分钟，一路逛吃，边走边吃才是王道！</p>
 <p><strong>珠宝街必吃清单：</strong></p>
@@ -794,7 +676,43 @@ style="text-align: left;">早上人少，拍照不用等；阁内有展览有空
 <p>建议选方案A，省路费、顺路、休息完正好去相声社！</p>
 </blockquote>
 <h4 id="自由活动-补充景点">🎭 16:00-17:30 · 自由活动 / 补充景点</h4>
-<p>这几个选项可自由组合：</p>
+<p><strong>推荐：坐地铁回滕王阁站，去赣江边玩水看晚霞 🌅</strong></p>
+<table>
+<colgroup>
+<col style="width: 29%" />
+<col style="width: 29%" />
+<col style="width: 41%" />
+</colgroup>
+<thead>
+<tr>
+<th style="text-align: left;">时间</th>
+<th style="text-align: left;">活动</th>
+<th style="text-align: left;">说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>16:00-16:30</strong></td>
+<td style="text-align: left;">🚇 八一广场→滕王阁站</td>
+<td style="text-align: left;">地铁1号线直达，2站路</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>16:30-17:30</strong></td>
+<td style="text-align: left;">🏊 <strong>赣江边玩水</strong></td>
+<td
+style="text-align: left;">滕王阁站4号口出，沿江边走到河滩，7月丰水期可踩水</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>17:30-18:00</strong></td>
+<td style="text-align: left;">🌅 <strong>看晚霞</strong></td>
+<td style="text-align: left;">“落霞与孤鹜齐飞”实景地，拍照绝美</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>玩完水看完晚霞，滕王阁附近吃个晚饭，再去相声社刚刚好！</p>
+</blockquote>
+<p>如果不想去江边，还有这些备选：</p>
 <table>
 <colgroup>
 <col style="width: 31%" />
@@ -827,9 +745,37 @@ style="text-align: left;">早上人少，拍照不用等；阁内有展览有空
 </tr>
 </tbody>
 </table>
-<h4 id="晚餐">🍜 18:00-19:00 · 晚餐</h4>
-<p>八一广场附近找个<strong>水煮店</strong>（英姐水煮/小欧水煮），人均20-30元，便宜过瘾！
-或者去<strong>铁头烧菜馆/南浦两室一厅</strong>吃顿正经赣菜，人均50-60元。</p>
+<h4 id="晚餐滕王阁附近">🍜 18:00-19:00 · 晚餐（滕王阁附近）</h4>
+<p>在滕王阁附近找家馆子吃，吃完再去相声社（打车10分钟）：</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">推荐</th>
+<th style="text-align: left;">说明</th>
+<th style="text-align: center;">人均</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>龙老五汤店</strong></td>
+<td style="text-align: left;">站前西路，地道瓦罐汤+拌粉</td>
+<td style="text-align: center;">~20-30元</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>珠宝街二刷</strong></td>
+<td style="text-align: left;">如果没逛够可以再去珠宝街吃小吃</td>
+<td style="text-align: center;">~20-30元</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>南浦两室一厅</strong></td>
+<td style="text-align: left;">地道赣菜苍蝇馆子</td>
+<td style="text-align: center;">~50-60元</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>从滕王阁到相声社打车约10分钟，2公里路</p>
+</blockquote>
 <h4 id="南昌贵林相声社">🎭 19:30-21:00 · 南昌贵林相声社 🎉</h4>
 <table>
 <thead>
@@ -1065,7 +1011,7 @@ style="text-align: left;">海昏侯墓出土文物（金饼、青铜器）、江
 </tr>
 </tbody>
 </table>
-<h4 id="晚餐-1">🍜 18:30-20:00 · 晚餐</h4>
+<h4 id="晚餐">🍜 18:30-20:00 · 晚餐</h4>
 <table>
 <colgroup>
 <col style="width: 21%" />
